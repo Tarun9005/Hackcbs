@@ -118,7 +118,7 @@
               <div class="card-body">
 
                 <!-- Form -->
-                <form name="">
+                <form action="registration.php" method="post">
                   <!-- Heading -->
                   <h3 class="dark-grey-text text-center">
                     <strong>Sign Up</strong>
@@ -127,13 +127,13 @@
 
                   <div class="md-form">
                     <i class="fas fa-user prefix grey-text"></i>
-                    <input type="text" id="form3" class="form-control">
+                    <input type="text" id="form3" class="form-control" name="user">
                     <label for="form3">Your name</label>
                   </div>
                   <div class="md-form">
                     <i class="fas fa-envelope prefix grey-text"></i>
-                    <input type="text" id="form2" class="form-control">
-                    <label for="form2">Your email</label>
+                    <input type="text" id="form2" class="form-control" name="password">
+                    <label for="form2">Your password</label>
                   </div>
 
                   <div class="md-form">
@@ -143,7 +143,7 @@
                   </div>
 
                   <div class="text-center">
-                    <button class="btn btn-indigo blue-gradient">Sign up</button>
+                    <button class="btn btn-indigo blue-gradient" type="submit">Sign up</button>
                     <hr>
                     <fieldset class="form-check">
                       <input type="checkbox" class="form-check-input" id="checkbox1">
@@ -171,7 +171,7 @@
               <div class="card-body">
 
                 <!-- Form -->
-                <form name="">
+                <form action="validation.php" method="post">
                   <!-- Heading -->
                   <h3 class="dark-grey-text text-center">
                     <strong>Login</strong>
@@ -180,13 +180,13 @@
 
                   <div class="md-form">
                     <i class="fas fa-user prefix grey-text"></i>
-                    <input type="text" id="form3" class="form-control">
+                    <input type="text" id="form3" class="form-control" name="user">
                     <label for="form3">Your name</label>
                   </div>
                   <div class="md-form">
                     <i class="fas fa-envelope prefix grey-text"></i>
-                    <input type="text" id="form2" class="form-control">
-                    <label for="form2">Your email</label>
+                    <input type="text" id="form2" class="form-control" name="password">
+                    <label for="form2">Your password</label>
                   </div>
 
                   <div class="md-form">
